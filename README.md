@@ -12,7 +12,7 @@ npm start
 
 Search by film name
 ```
-localhost:3000/<filmName>
+localhost:3000/<film name>
 ```
 
 Search by film name at a given page
