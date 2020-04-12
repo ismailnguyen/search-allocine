@@ -1,0 +1,15 @@
+{
+  "name": "search-allocine",
+  "version": "1.0.0",
+  "description": "Allocine Search API client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ismaïl NGUYEN",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+	"axios": "^0.19.2"
+  }
+}
