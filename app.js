@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const routes = require('./routes');
-const { PORT } = require('./config');
 
 function ignoreFavicon(req, res, next) {
     if (req.originalUrl === '/favicon.ico') {
@@ -20,6 +19,4 @@ app.use(ignoreFavicon);
 
 routes.registerRoutes(app);
 
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+module.exports = app;

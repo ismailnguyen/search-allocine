@@ -1,21 +1,47 @@
 # search-allocine
 Allocine Search API client
 
-## Usage
+## Install
 
-### Start server
+### Local
+
+#### Install packages
+```
+npm install
+```
+
+#### Start server
 ```
 npm start
 ```
 
-### Use
+### Cloud (AWS Lambda)
+
+#### Install tools
+```
+npm install -g serverless
+```
+
+#### Install packages
+```
+npm install
+```
+
+#### Deploy
+```
+sls deploy
+```
+
+More about AWS Lambda deployment here : [https://serverless.com/blog/serverless-express-rest-api/](https://serverless.com/blog/serverless-express-rest-api/)
+
+## Usage
 
 Search by film name
 ```
-localhost:3000/<film name>
+<domain>/<film name>
 ```
 
 Search by film name at a given page
 ```
-localhost:3000/<film name>/<page number>
+<domain>/<film name>/<page number>
 ```
